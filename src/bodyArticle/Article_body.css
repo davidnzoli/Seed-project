@@ -1,0 +1,616 @@
+.scroll{
+    overflow: hidden;
+}
+.blogs{
+    height: 93vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 120px 0px;
+    margin-bottom: 800px;
+    user-select: none;
+    gap: 35px;
+}
+.blogs .glob-blogs{
+    width: 60%;
+    height: 230px;
+    padding: 30px 30px;
+    background-color: rgb(97, 179, 218);
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    gap: 40px;
+}
+.blogs .glob-blogs .profMail{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.profMail > #image{
+    width: 30%;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profMail #mail{
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+.glob-blogs #titreName{
+    color: white;
+    font-weight: 700;
+}
+.titre #paraTitre{
+    color: white;
+    font-weight: 600;
+}
+.glob-blogs > .buttons{
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.buttons > #btn{
+    padding: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#btn:nth-child(3){
+    background-color: red;
+}
+@media screen and (min-width: 0px) {
+    .blogs{
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-top: 120px;
+        margin-bottom: 60px;
+        user-select: none;
+        gap: 5px;
+        font-size: 10px;
+    }
+    .blogs .glob-blogs{
+        width: 80%;
+        height: 280px;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 0px;
+    }
+    .blogs .glob-blogs .profMail{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 0px
+    }
+    .profMail > #image{
+        width: 30%;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .profMail #mail{
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        margin-right: 180px;
+    }
+    .glob-blogs #titreName{
+        color: white;
+        font-weight: 700;
+    }
+    .titre #paraTitre{
+        color: white;
+        font-weight: 600;
+        font-size: 0.85rem;
+    }
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 2px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        gap: 3px;
+    }
+    .buttons > #btn{
+        padding: 10px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    #btn:nth-child(3){
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .blogs .glob-blogs{
+        width: 80%;
+        height: 380px;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 0px;
+    }
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 5px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+.profMail > #image{
+    width: 35%;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profMail #mail{
+    font-size: 1.70rem;
+    font-weight: 600;
+    color: white;
+    margin-right: 180px;
+}
+.glob-blogs #titreName{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.titre #paraTitre{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+}
+@media screen and (min-width: 500px){
+    .blogs{
+        width: 100%;
+        height: 190vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-top: 120px;
+        margin-bottom: 60px;
+        user-select: none;
+        gap: 5px;
+        font-size: 10px;
+    }
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 25px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 700px){
+ 
+    .blogs{
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin: 120px 0px;
+        user-select: none;
+        gap: 0px;
+        font-size: 10px;
+    }
+    .blogs .glob-blogs{
+        width: 80%;
+        height: 500px;
+        padding: 80px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 0px;
+    }
+    .blogs .glob-blogs .profMail{
+        width:40%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 0px;
+    }
+    .profMail > #image{
+        width: 70%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .profMail #mail{
+        font-size: 1.95rem;
+        font-weight: 600;
+        color: white;
+        margin-left: 0px;
+        
+    }
+    .glob-blogs #titreName{
+        color: white;
+        font-size: 1.55rem;
+        font-weight: 700;
+    }
+    .titre #paraTitre{
+        color: white;
+        font-size: 1.55rem;
+        font-weight: 600;
+    }
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 25px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .buttons > #btn{
+        padding: 20px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    #btn:nth-child(3){
+        background-color: red;
+    }
+}
+@media screen and (min-width: 750px){
+    .blogs{
+        width: 100%;
+        height: 190vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin: 120px 0px;
+        user-select: none;
+        gap: 0px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .blogs{
+        width: 100%;
+        height: 280vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin: 120px 0px;
+        user-select: none;
+        gap: 0px;
+        font-size: 10px;
+    }
+    .blogs .glob-blogs{
+        width: 90%;
+        height: 380px;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 0px;
+    }
+    .blogs .glob-blogs .profMail{
+        width:50%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .profMail #mail{
+        font-size: 1.95rem;
+        font-weight: 600;
+        color: white;
+        margin-left: 0px;
+        
+    }
+    .profMail > #image{
+        width: 50%;
+        height: 100px;
+        padding:30px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .buttons > #btn{
+        padding: 20px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    #btn:nth-child(3){
+        background-color: red;
+    }
+}
+@media screen and (min-width: 1280px){
+  
+    .blogs{
+        width: 98%;
+        height: 150vh;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+        padding: 0px;
+        user-select: none;
+        gap: 5px;
+    }
+    .blogs .glob-blogs{
+        width: 90%;
+        height: 400px;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 15px;
+    }
+    .blogs .glob-blogs .profMail{
+        width: 40%;
+        height: 40px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+    .profMail > #image{
+        width: 50%;
+        height: 100px;
+        padding:0px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 5px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1464px){
+    .glob-blogs > .buttons{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 35px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1714px){
+    .blogs{
+        height: 93vh;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 120px 30px;
+        user-select: none;
+        gap: 35px;
+    }
+    .blogs .glob-blogs{
+        width: 60%;
+        height: 510px;
+        padding: 30px 30px;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 40px;
+    }
+    .blogs .glob-blogs .profMail{
+        width: 40%;
+        height: 40px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+       
+    }
+    .profMail > #image{
+        width: 30%;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .profMail #mail{
+        font-size: 23px;
+        font-weight: 600;
+        color: white;
+    }
+    .glob-blogs #titreName{
+        color: white;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .titre #paraTitre{
+        color: white;
+        font-weight: 600;
+    }
+    .glob-blogs > .buttons{
+        width: 60%;
+        height: 50px;
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .buttons > #btn{
+        padding: 20px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    #btn:nth-child(3){
+        background-color: red;
+}
+}
+@media screen and (min-width: 1819px){
+
+.blogs{
+    height: 93vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 120px 30px;
+    user-select: none;
+    gap: 35px;
+    font-size: 0px;
+}
+.blogs .glob-blogs{
+    width: 60%;
+    height: 280px;
+    padding: 30px 30px;
+    background-color: rgb(97, 179, 218);
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    gap: 10px;
+    
+}
+.blogs .glob-blogs .profMail{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.profMail > #image{
+    width: 30%;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profMail #mail{
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+.glob-blogs #titreName{
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+}
+.titre #paraTitre{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.glob-blogs > .buttons{
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.buttons > #btn{
+    padding: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#btn:nth-child(3){
+    background-color: red;
+}
+}
+
+@media screen and (min-width: 2010px){
+    .blogs .glob-blogs{
+        width: 60%;
+        height: 300px;
+        padding: 30px 30px;
+        background-color: rgb(97, 179, 218);
+        border: 2px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        gap: 10px;
+        
+    }
+}

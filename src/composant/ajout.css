@@ -1,0 +1,794 @@
+.cont-ajout{
+    width: 30%;
+    height:600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+    gap: 20px;
+}
+#titreAjout{
+    font-size: 25px;
+    font-weight: 600;
+}
+.globy {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#titre{
+    width: 80%;
+    height: 80px;
+    font-size: 23px;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 179, 218);;
+}
+#contenu{
+    width: 80%;
+    height: 180px;
+    font-size: 23px;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 179, 218);
+}
+#button{
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(97, 179, 218);
+    padding: 10px;
+    margin-right: 280px;
+}
+.btnFermer{
+    margin-left: 450px;
+}
+#btn-close{
+    background-color: red;
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 0px){
+    .cont-ajout{
+        width: 93%;
+        height:450px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 7px;
+        gap: 10px;
+    }
+    #titre{
+        width: 80%;
+        height: 50px;
+        font-size: 16px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 100px;
+        font-size: 16px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #button{
+        width: 95%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .globy {
+        width: 90%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btnFermer{
+        margin-left: 150px;
+    }
+    #btn-close{
+        width: 100%;
+        background-color: red;
+        font-size:18px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 300px){
+    .cont-ajout{
+        width: 93%;
+        height:450px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 12px;
+        gap: 10px;
+    }
+    #button{
+        width: 90%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .globy {
+        width: 90%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #titre{
+        font-size: 20px;
+    }
+    #contenu{
+        font-size: 20px;
+    }
+    .btnFermer{
+        margin-left: 215px;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .cont-ajout{
+        width: 93%;
+        height:470px;
+        gap: 15px;
+    }
+    #titre{
+        font-size: 22px;
+    }
+    #contenu{
+        font-size: 23px;
+    }
+    .globy {
+        width: 90%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btnFermer{
+        margin-left: 220px;
+    }
+    #btn-close{
+        background-color: red;
+        font-size:20px;
+    }
+}
+@media screen and (min-width: 500px){
+    .cont-ajout{
+        width: 93%;
+        height:450px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 20px;
+        gap: 10px;
+    }
+    .globy {
+        width: 90%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #button{
+        width: 90%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .btnFermer{
+        margin-left: 310px;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .cont-ajout{
+        width: 90%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 30px;
+        gap: 10px;
+    }
+    .globy {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #button{
+        width: 85%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .btnFermer{
+        margin-left: 430px;
+    }
+    #btn-close{
+        width: 100%;
+        background-color: red;
+        font-size:23px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+}
+@media screen and (min-width: 820px){
+    #button{
+        width: 85%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 25px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 25px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #btn-close{
+        width: 100%;
+        background-color: red;
+        font-size:25px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 900px){
+    #button{
+        width: 85%;
+        height: 100px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    #titre{
+        width: 80%;
+        height: 100px;
+        font-size: 28px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 28px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    .btnFermer{
+        margin-left: 495px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cont-ajout{
+        width: 90%;
+        height:480px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 110px;
+        left: 80px;
+        gap: 0px;
+    }
+    #button{
+        width: 50%;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 280px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 28px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    .globy {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btnFermer{
+        margin-left: 580px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .cont-ajout{
+        width: 90%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 80px;
+        gap: 0px;
+    }
+    #titreAjout{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .globy {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 30px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 30px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #button{
+        width: 30%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 560px;
+    }
+    .btnFermer{
+        margin-left: 750px;
+    }
+    #btn-close{
+        width: 100%;
+        background-color: red;
+        font-size:30px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 1420px){
+    .cont-ajout{
+        width: 30%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 350px;
+        gap: 20px;
+    }
+    #titreAjout{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .globy {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #button{
+        width: 90%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .btnFermer{
+        margin-left: 230px;
+    }
+    #btn-close{
+        background-color: red;
+        font-size:20px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 1870px){
+    .cont-ajout{
+        width: 30%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 350px;
+        gap: 20px;
+    }
+    #titreAjout{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .globy {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #button{
+        width:85%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .btnFermer{
+        margin-left: 450px;
+    }
+    #btn-close{
+        width:100%;
+        background-color: red;
+        font-size:20px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 2038px){
+    .cont-ajout{
+        width: 30%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 350px;
+        gap: 20px;
+    }
+    #titreAjout{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .globy {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #titre{
+        width: 80%;
+        height: 80px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);;
+    }
+    #contenu{
+        width: 80%;
+        height: 180px;
+        font-size: 23px;
+        outline: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(97, 179, 218);
+    }
+    #button{
+        width: 200px;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(97, 179, 218);
+        padding: 10px;
+        margin-right: 280px;
+    }
+    .btnFermer{
+        margin-left: 450px;
+    }
+    #btn-close{
+        background-color: red;
+        font-size:20px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

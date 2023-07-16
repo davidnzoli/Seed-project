@@ -1,0 +1,535 @@
+.blogy{
+    width: 100%;
+    height: 80vh;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.blogy .cont-Sign{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    user-select: none;
+    background-color: rgb(113, 195, 233);
+    border-radius: 20px;
+    user-select: none;
+}
+#titre-sign{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+}
+.cont-Sign #formul{
+    width: 60%;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cont-Sign #formul label{
+    width: 200px;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+.cont-Sign #formul > input{
+    width: 100%;
+    height: 70px;
+    padding-left: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+#create{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 50%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(113, 195, 233);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .cont-Sign #formul{
+        width: 80%;
+        height: 300px;
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 200px;
+        font-size: 0.95rem;
+        margin-left: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 155px;
+        height: 50px;
+        padding-left: 30px;
+        font-size: 0.95rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 0.90rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 390px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 60%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(113, 195, 233);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .cont-Sign #formul{
+        width: 90%;
+        height: 400px;
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 200px;
+        font-size: 1.4rem;
+        margin-left: 0px;
+        font-weight: 700;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 200px;
+        height: 60px;
+        padding-left: 30px;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 80%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(113, 195, 233);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1.95rem;
+        margin-bottom: 50px;
+    }
+    .cont-Sign #formul{
+        width: 90%;
+        height: 400px;
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 570px;
+        font-size: 1.7rem;
+        margin-left: 0px;
+        font-weight: 700;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 550px;
+        height: 80px;
+        padding: 20px;
+        padding-left: 30px;
+        font-size: 1.55rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 1.55rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 60%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 30px;
+        user-select: none;
+        background-color: rgb(113, 195, 233);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1.9rem;
+        margin-bottom: 50px;
+    }
+    .cont-Sign #formul{
+        width: 90%;
+        height: 300px;
+        padding: 0px 50px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .cont-Sign #formul label{
+        width: 570px;
+        font-size: 1.5rem;
+        margin-left: 45px;
+        font-weight: 700;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 500px;
+        height: 80px;
+        padding: 15px;
+        padding-left: 30px;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 20px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1280px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 60%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(97, 179, 218);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1.95rem;
+    }
+    .cont-Sign #formul{
+        width: 90%;
+        height: 400px;
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 200px;
+        font-size: 1.5rem;
+        margin-right: 270px;
+        font-weight: 600;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 400px;
+        height: 60px;
+        padding-left: 30px;
+        font-size: 1.40rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1713px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .blogy .cont-Sign{
+        width: 60%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(97, 179, 218);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 1.95rem;
+    }
+    .cont-Sign #formul{
+        width: 90%;
+        height: 400px;
+        padding: 0px 50px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 200px;
+        font-size: 1.5rem;
+        margin-right: 440px;
+        font-weight: 600;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 550px;
+        height: 60px;
+        padding-left: 30px;
+        font-size: 1.40rem;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 0px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1848px){
+    .blogy{
+        width: 100%;
+        height: 80vh;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .blogy .cont-Sign{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        user-select: none;
+        background-color: rgb(113, 195, 233);
+        border-radius: 20px;
+        user-select: none;
+    }
+    #titre-sign{
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .cont-Sign #formul{
+        width: 60%;
+        height: 500px;
+        padding: 50px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        
+        gap: 10px;
+    }
+    .cont-Sign #formul label{
+        width: 200px;
+        font-size: 23px;
+        font-weight: 700;
+        margin-left: 0px;
+        color: white;
+    }
+    .cont-Sign #formul > input{
+        width: 100%;
+        height: 70px;
+        padding-left: 30px;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    #create{
+        font-size: 25px;
+        font-weight: 400;
+        margin-left: 150px;
+        margin-top: 30px;
+        color: white;
+        letter-spacing: 2px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,445 @@
+.cont-navigateurs{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color:  white;
+    box-shadow: -0px 1px 7px rgb(240, 240, 240);
+    position: fixed;
+    top: 0;
+    gap: 10px;
+    z-index: 1000;
+    user-select: none;
+}
+.cont-navigateurs .nav-left{
+    flex: 4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cont-navigateurs  #image-resp{
+    display: none;
+    object-fit: cover;
+    margin-left: 10px;
+}
+#image{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.cont-navigateurs .nav-milieu{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-navigateurs .nav-right{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#list1{
+    list-style-type: none;
+} 
+#onlists >#list1 > .active{
+    color: red;
+    font-weight:700;
+}
+#list1 > #ancre{
+    padding:20px 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(113, 195, 233);
+    font-size: 23px;
+    font-weight: 500;
+    
+}
+
+@media screen and (min-width : 0px){
+    .cont-navigateurs{
+        gap: 0px;
+    }
+    .cont-navigateurs .nav-left{
+        position: relative;
+    }
+    .cont-navigateurs  #image-resp{
+        display: block;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        position: absolute;
+        left: 0px;
+    }
+ #image{
+        width: 50%;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 90px;
+    }
+    .cont-navigateurs .nav-milieu{
+        flex: 0;
+        display: none;
+    }
+
+    .cont-navigateurs .nav-right{
+        margin-right: 0px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .cont-navigateurs .nav-right  #list1{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+    }
+    #list1 > #ancre{
+        padding:10px 10px;
+        display: inline;
+        margin-left: 0px;   
+        color: rgb(113, 195, 233);
+        font-size: 4vw;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width : 500px){
+    .cont-navigateurs  #image-resp{
+        display: block;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        position: absolute;
+        left: 10px;
+    }
+ #image{
+        width: 40%;
+        height: 80px;
+        margin-left: 150px;
+    }
+    #list1 > #ancre{
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width : 700px){
+    .cont-navigateurs{
+        width: 100%;
+    }
+    .cont-navigateurs .nav-left{
+        position: relative;
+    }
+    .cont-navigateurs  #image-resp{
+        width: 60px;
+        height: 60px;
+        flex: 10px;
+    }
+#image{
+        width: 40%;
+        height: 100px;
+        margin-left: 190px;
+    }
+    #list1 > #ancre{
+        font-weight: 500;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width : 820px){
+    .cont-navigateurs{
+        width: 100%;
+        /* height: 10vh; */
+    }
+    .cont-navigateurs  #image-resp{
+        width: 60px;
+        height: 60px;
+        left: 12px;
+    }
+ #image{
+        width: 40%;
+        height: 100px;
+        margin-left: 190px;
+    }
+    #list1 > #ancre{
+        font-weight: 500;
+        font-size: 23px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width : 1024px){
+    .cont-navigateurs{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: -0px 1px 7px rgb(240, 240, 240);
+        position: fixed;
+        top: 0;
+        gap: 10px;
+        z-index: 1000;
+    }
+    .cont-navigateurs .nav-left{
+        flex: 2;
+        height: 100%;
+        display: flex;
+    }
+    .cont-navigateurs  #image-resp{
+        display: none;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+#image{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    .cont-navigateurs .nav-milieu{
+        flex: 3;
+        height: 100%;
+        display: flex;
+    }
+    .cont-navigateurs .nav-right{
+        flex: 2;
+        height: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    #list1{
+        list-style-type: none;
+    } 
+    #onlists >#list1 > .active{
+        color: red;
+        font-weight:700;
+    }
+    #list1 > #ancre{
+        padding:0px 0px;
+        margin-right: 20px;
+        text-decoration: none;
+        display: inline;
+        color: rgb(113, 195, 233);
+        font-size: 23px;
+        font-weight: 500;
+        
+    }
+    
+}
+
+@media screen and (min-width : 1317px){
+    .cont-navigateurs{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: -0px 1px 7px rgb(240, 240, 240);
+        position: fixed;
+        top: 0;
+        gap: 10px;
+        z-index: 1000;
+    }
+    .cont-navigateurs .nav-left{
+        flex: 4;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .cont-navigateurs  #image-resp{
+        display: none;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+#image{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    .cont-navigateurs .nav-milieu{
+        flex: 3;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-navigateurs .nav-right{
+        flex: 2;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    #list1{
+        list-style-type: none;
+    } 
+    #onlists >#list1 > .active{
+        color: red;
+        font-weight:700;
+    }
+    #list1 > #ancre{
+        padding:10px 10px;
+        margin-right: 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: rgb(113, 195, 233);
+        font-size: 23px;
+        font-weight: 500;
+        
+    }
+}
+
+@media screen and (min-width : 1516px){
+#image{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width : 2025px){
+    .cont-navigateurs{  
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        background-color:  white;
+        box-shadow: -0px 1px 7px rgb(240, 240, 240);
+        position: fixed;
+        top: 0;
+        gap: 10px;
+        z-index: 1000;
+        user-select: none;
+    }
+    .cont-navigateurs .nav-left{
+        flex: 4;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .cont-navigateurs  #image-resp{
+        display: none;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    #image{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    .cont-navigateurs .nav-milieu{
+        flex: 3;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-navigateurs .nav-right{
+        flex: 2;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    #list1{
+        list-style-type: none;
+    } 
+    #onlists >#list1 > .active{
+        color: red;
+        font-weight:700;
+    }
+    #list1 > #ancre{
+        padding:20px 20px;
+        margin-left: 15px;
+        text-decoration: none;
+        display: inline-block;
+        color:rgb(113, 195, 233);
+        font-size: 23px;
+        font-weight: 500;
+        
+    }
+}
+/*commentaire------------------------------
+
+/* @media screen and (min-width : 0px){
+    .cont-navigateurs{
+        gap: 0px;
+    }
+    .cont-navigateurs .nav-left{
+        height: 100%;
+        position: relative;
+    }
+    .cont-navigateurs  #image-resp{
+        display: block;
+        width: 40x;
+        height: 40px;
+        object-fit: cover;
+        position: absolute;
+        left: 0px;
+    }
+    .cont-navigateurs .nav-left > #image{
+        width: 60%;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 60px;
+    }
+    .cont-navigateurs .nav-milieu{
+        flex: 0;
+        display: none;
+    }
+
+    .cont-navigateurs .nav-right{
+        margin-right: 0px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .cont-navigateurs .nav-right  #list1{
+        
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+    }
+    #list1 > #ancre{
+        padding:10px 10px;
+        margin-right: 10px;
+        margin-left: 0px;   
+        color: rgb(2, 2, 129);
+        font-size: 5vw;
+        font-weight: 400;
+        
+    }
+}
+
+@media screen and (min-width : 412px){
+    .cont-navigateurs  #image-resp{
+        display: block;
+        width: 60x;
+        height: 60px;
+        object-fit: cover;
+        position: absolute;
+        left: 0px;
+    }
+}
+@media screen and (min-width : 740px){
+    .cont-navigateurs .nav-left > #image{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: 220px;
+    }
+} */
